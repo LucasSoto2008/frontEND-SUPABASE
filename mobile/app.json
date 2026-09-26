@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Holocron",
+    "slug": "holocron-bounty-guild",
+    "scheme": "holocron",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.taller.holocronbountyguild",
+      "adaptiveIcon": {
+        "backgroundColor": "#0b0c10"
+      }
+    },
+    "plugins": [
+      "expo-secure-store",
+      "expo-web-browser"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "e2582bca-b16b-44dc-9d19-4711c0bbb3eb"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/e2582bca-b16b-44dc-9d19-4711c0bbb3eb"
+    }
+  }
+}
